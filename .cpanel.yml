@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/mppmagco/picomex.mppm-ag.com/
+    - /bin/cp index.html style.css app.js "$DEPLOYPATH"
+    - /bin/cp -R assets "$DEPLOYPATH"
