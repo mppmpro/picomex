@@ -23,3 +23,9 @@
 @media(min-width:1600px){.hero-map{width:100%;right:0}.reach>div:first-child{max-width:55%}}
 @media(max-width:1100px) and (min-width:701px){.hero-map{width:100%;right:0;top:0}.reach>div:first-child{max-width:62%}.reach h2{font-size:35px}.reach{background-position:center,58% 65%}.essence .essence-heading .essence-subtitle{font-size:25px}footer{flex-wrap:wrap}}
 @media(max-width:700px){.hero{min-height:770px;display:block;padding-bottom:80px}.hero:after{display:block;background:linear-gradient(90deg,#061E32ed,#061E32a8 62%,#061E3255)}.hero-map{position:absolute;inset:0;width:100%;height:100%;margin:0;transform:none}.hero-map svg{position:absolute;inset:0;width:100%;height:100%;min-width:0}.hero-map .map-controls{right:6%;bottom:95px;left:auto;padding:0}.hero-inner{padding-bottom:120px}.hero-bottom{position:absolute;left:6%;right:6%;bottom:0;margin:0}.reach{min-height:630px;padding-top:65px;padding-bottom:65px;background-position:center,66% center;background-image:linear-gradient(90deg,rgba(4,29,44,.94),rgba(4,29,44,.77) 65%,rgba(4,29,44,.42)),url('assets/picomex-navio-oceano.webp')}.reach>div:first-child{max-width:100%}.reach h2{font-size:33px}.reach>div>p:not(.eyebrow){font-size:14px}.essence .essence-heading .essence-subtitle{white-space:normal;font-size:25px}.footer-brand img{width:235px}footer>div:first-child{min-width:0}}
+
+/* V6 — logotipo horizontal no cabeçalho */
+header .brand{width:220px;height:auto;flex:0 0 220px;justify-content:flex-start}header .brand img{display:block;width:100%;height:auto;max-height:85px;object-fit:contain}
+@media(max-width:1100px) and (min-width:701px){header .brand{width:180px;flex-basis:180px}header nav{gap:20px}}
+@media(max-width:700px){header .brand{width:156px;flex-basis:156px}header .brand img{width:100%;height:auto;max-height:61px}}
+@media(max-width:380px){header .brand{width:130px;flex-basis:130px}header .small{font-size:10px;padding:8px;gap:5px;margin-right:8px}}
