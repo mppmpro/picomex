@@ -29,3 +29,47 @@ header .brand{width:220px;height:auto;flex:0 0 220px;justify-content:flex-start}
 @media(max-width:1100px) and (min-width:701px){header .brand{width:180px;flex-basis:180px}header nav{gap:20px}}
 @media(max-width:700px){header .brand{width:156px;flex-basis:156px}header .brand img{width:100%;height:auto;max-height:61px}}
 @media(max-width:380px){header .brand{width:130px;flex-basis:130px}header .small{font-size:10px;padding:8px;gap:5px;margin-right:8px}}
+
+/* V7 — prioridade para celular e desktop */
+html{scroll-padding-top:20px}
+.arrow-icon{display:inline-block;flex:0 0 18px;width:18px;height:18px;vertical-align:middle}
+.contact-email .arrow-icon{width:14px;height:14px;margin-left:5px}
+.hero-inner{width:calc(600px + 7vw);max-width:100%;padding:64px 24px 110px 7vw}
+.hero h1{font-size:60px}
+.hero{min-height:760px}
+.hero-map-controls{position:absolute;right:7%;bottom:94px;z-index:4;margin:0}
+.hero-map-controls>span{display:none}
+.hero-map-controls button{min-height:44px}
+header nav a{white-space:nowrap;display:flex;align-items:center;min-height:44px}
+summary{min-height:44px;align-items:center}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid #00843D}
+@media(min-width:1600px){.hero{min-height:800px}.hero-inner{padding-top:78px;padding-bottom:110px}.hero h1{font-size:64px}}
+@media(min-width:701px) and (max-width:1100px){header .brand{flex-basis:160px;width:160px}header nav{gap:14px;font-size:12px}header .small{padding:12px;gap:12px;white-space:nowrap}.hero-inner{width:calc(550px + 5vw);padding-left:5vw}.hero h1{font-size:51px}}
+@media(max-width:850px) and (min-width:701px){header nav{gap:10px;font-size:11px}header .brand{flex-basis:145px;width:145px}header .small{font-size:11px;gap:8px}}
+@media(max-width:700px){
+ .hero{min-height:0;padding:0;display:block}
+ .hero-inner{width:100%;max-width:none;padding:32px 6% 82px}
+ .hero h1{font-size:clamp(36px,10.4vw,43px);margin:22px 0;line-height:1.12}
+ .hero .intro{line-height:1.75;margin-bottom:24px}
+ .hero .eyebrow{line-height:1.7}
+ .hero .text-link{margin:14px 0 0;min-height:44px;display:flex;align-items:center}
+ .hero .button{max-width:100%;gap:16px;min-height:48px}
+ .hero-bottom{position:relative;left:auto;right:auto;margin:0 6%;padding:16px 0;min-height:44px}
+ .hero-map-controls{right:6%;bottom:64px;left:auto;padding:0}
+ .hero-map-controls button{font-size:11px;padding:10px 12px}
+ header .small{min-height:44px;gap:9px}header .menu{min-width:44px;min-height:44px;padding:6px}
+ header .brand{width:145px;flex-basis:145px}
+ header nav{padding:14px 6% 20px;gap:4px}
+ header nav a{min-height:44px}
+ .section{padding-top:48px;padding-bottom:48px}
+ .people-section{padding-top:0}
+ .reach{min-height:0;padding-top:48px;padding-bottom:48px;background-position:center,66% center}
+ .reach .eyebrow{margin-top:0}.reach h2{margin:22px 0}.reach-values{margin-top:22px}
+ .essence-heading{margin-bottom:28px}.essence-heading h2{margin-top:16px}
+ .essence-values-grid{gap:16px}.mission-grid{gap:18px}
+ .journey{padding-bottom:48px}.service-grid{margin-top:26px}
+ footer>a{min-height:44px;display:flex;align-items:center}
+ .service>a{min-height:44px}.contact-email,.phone{min-height:44px;display:flex;align-items:center}.phone{margin-top:0}
+}
+@media(max-width:380px){header .brand{width:120px;flex-basis:120px}header .small{padding:8px;gap:5px;margin-right:4px}.hero .eyebrow{letter-spacing:1px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
